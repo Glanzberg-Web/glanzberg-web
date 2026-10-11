@@ -23,3 +23,7 @@ a,button,summary{transition-property:color,background-color,border-color,box-sha
 .project-card-info,.project-card-meta{transition:opacity .4s ease}
 @media(max-width:780px){.site-preview{aspect-ratio:16/11}.site-preview-visit{opacity:1;transform:none;right:12px;bottom:12px;padding:9px 12px}}
 @media(prefers-reduced-motion:reduce){.project-visual-link,.site-preview-image,.site-preview-visit,a,button,summary{transition:none!important}.project-visual-link:hover,.project-visual-link:hover .site-preview-image{transform:none!important}}
+
+/* Glanzberg Studio wordmark refinement */
+.wordmark-symbol{letter-spacing:-.08em;gap:1px;padding-right:0}
+.wordmark-text span{letter-spacing:.2em}

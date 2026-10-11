@@ -3,7 +3,7 @@ import { Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "Contact & Project Inquiry",
-  description: "Tell Glanzberg Web about your website project. Request a quote for a new site, redesign, landing page, or ongoing updates.",
+  description: "Tell Glanzberg Studio about your website project. Request a quote for a new site, redesign, landing page, or ongoing updates.",
   alternates: { canonical: "/contact" },
 };
 

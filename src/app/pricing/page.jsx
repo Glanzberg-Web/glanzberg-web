@@ -5,7 +5,7 @@ import { Arrow, ContactStrip, Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "Website Pricing & Project Scopes",
-  description: "Explore Glanzberg Web's project scopes, from streamlined business websites to tailored digital experiences. Request a personalized quote.",
+  description: "Explore Glanzberg Studio's project scopes, from streamlined business websites to tailored digital experiences. Request a personalized quote.",
   alternates: { canonical: "/pricing" },
 };
 

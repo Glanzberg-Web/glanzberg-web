@@ -4,7 +4,7 @@ import { ContactStrip, Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "Work & Website Concepts",
-  description: "Explore website design concepts by Glanzberg Web for local services, hospitality, wellness, landscaping, construction and more.",
+  description: "Explore website design concepts by Glanzberg Studio for local services, hospitality, wellness, landscaping, construction and more.",
   alternates: { canonical: "/work" },
 };
 

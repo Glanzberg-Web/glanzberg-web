@@ -9,16 +9,16 @@ const basePath = rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
 export const metadata = {
   metadataBase: new URL(siteUrl.replace(/\/$/, "") + "/"),
   title: {
-    default: "Glanzberg Web | Websites built to mean business",
-    template: "%s | Glanzberg Web",
+    default: "Glanzberg Studio | Websites designed to work",
+    template: "%s | Glanzberg Studio",
   },
   description: "Thoughtful websites, practical redesigns, and website updates for businesses ready to make a stronger first impression.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Glanzberg Web",
-    title: "Glanzberg Web | Websites built to mean business",
+    siteName: "Glanzberg Studio",
+    title: "Glanzberg Studio | Websites designed to work",
     description: "Websites that look the part and help customers take the next step.",
   },
   twitter: { card: "summary_large_image" },
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Glanzberg Web",
+    name: "Glanzberg Studio",
     url: siteUrl,
     description: "Website design, redesign, and maintenance services.",
   };

@@ -3,7 +3,7 @@ import { Arrow, ContactStrip, Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "About",
-  description: "Get to know Glanzberg Web's approach to thoughtful, useful business websites and practical ongoing improvements.",
+  description: "Get to know Glanzberg Studio's approach to thoughtful, useful business websites and practical ongoing improvements.",
   alternates: { canonical: "/about" },
 };
 
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="shell page-hero-inner">
           <Eyebrow light>A LITTLE ABOUT US</Eyebrow>
           <h1>Design that looks good.<br /><em>Thinking that goes deeper.</em></h1>
-          <p>Glanzberg Web focuses on websites that feel considered, work intuitively, and make life easier for the businesses behind them.</p>
+          <p>Glanzberg Studio focuses on websites that feel considered, work intuitively, and make life easier for the businesses behind them.</p>
         </div>
       </section>
       <section className="section">

@@ -70,7 +70,7 @@ export default {
           from: env.CONTACT_FROM_EMAIL,
           to: [env.CONTACT_TO_EMAIL],
           reply_to: email,
-          subject: "New Glanzberg Web inquiry from " + name,
+          subject: "New Glanzberg Studio inquiry from " + name,
           html,
           text: rows.map(([key, value]) => key + ": " + value).join("\n\n"),
         }),

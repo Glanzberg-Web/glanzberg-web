@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="16" fill="#191c18"/>
-  <path d="M14 24h16l-7 8 7 8H14z" fill="#d7fb6b"/>
-  <path d="M34 24h16l-7 8 7 8H34z" fill="#f4f3eb"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Glanzberg Studio</title>
+  <rect width="64" height="64" rx="15" fill="#191e19"/>
+  <text x="32" y="42" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" letter-spacing="-2" text-anchor="middle"><tspan fill="#d8f978">G</tspan><tspan fill="#f7f5ed">S</tspan></text>
 </svg>

@@ -12,9 +12,9 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="shell nav-shell">
-        <Link className="wordmark" href="/" aria-label="Glanzberg Web, home" onClick={() => setOpen(false)}>
-          <span className="wordmark-symbol" aria-hidden="true"><span>G</span><span>W</span></span>
-          <span className="wordmark-text">GLANZBERG<span>WEB</span></span>
+        <Link className="wordmark" href="/" aria-label="Glanzberg Studio, home" onClick={() => setOpen(false)}>
+          <span className="wordmark-symbol" aria-hidden="true"><span>G</span><span>S</span></span>
+          <span className="wordmark-text">GLANZBERG<span>STUDIO</span></span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {navItems.map((item) => (

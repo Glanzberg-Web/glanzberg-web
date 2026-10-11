@@ -24,8 +24,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="shell footer-bottom">
-        <span className="footer-brand">GLANZBERG <strong>WEB</strong><span className="brand-dot">✳</span></span>
-        <span>© {new Date().getFullYear()} Glanzberg Web. Thoughtfully built.</span>
+        <span className="footer-brand">GLANZBERG <strong>STUDIO</strong><span className="brand-dot">✳</span></span>
+        <span>© {new Date().getFullYear()} Glanzberg Studio. Thoughtfully built.</span>
       </div>
     </footer>
   );

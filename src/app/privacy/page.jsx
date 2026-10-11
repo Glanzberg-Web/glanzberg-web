@@ -3,7 +3,7 @@ import { Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "Privacy Information",
-  description: "How Glanzberg Web handles information submitted through our contact form.",
+  description: "How Glanzberg Studio handles information submitted through our contact form.",
   alternates: { canonical: "/privacy" },
 };
 

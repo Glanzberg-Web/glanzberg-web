@@ -4,7 +4,7 @@ import { Arrow, ContactStrip, Eyebrow } from "@/components/Shared";
 
 export const metadata = {
   title: "Web Design Services",
-  description: "New websites, web redesigns, landing pages, and website maintenance. Explore Glanzberg Web's business website services.",
+  description: "New websites, web redesigns, landing pages, and website maintenance. Explore Glanzberg Studio's business website services.",
   alternates: { canonical: "/services" },
 };
 

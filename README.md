@@ -1,6 +1,6 @@
-# Glanzberg Web
+# Glanzberg Studio
 
-Glanzberg Web's business website is built with Next.js, exported to static HTML/CSS/JavaScript, and deployed on **GitHub Pages** from the `main` branch.
+Glanzberg Studio's business website is built with Next.js, exported to static HTML/CSS/JavaScript, and deployed on **GitHub Pages** from the `main` branch.
 
 ## GitHub Pages deployment
 
@@ -50,3 +50,7 @@ The six portfolio items are **fictional website demonstration concepts**, not co
 - Test contact delivery with the Worker, verified Resend sender, and abuse prevention.
 - Review and tailor privacy language to actual business practices.
 - Perform keyboard, screen-reader, contrast, and other accessibility testing.
+
+## Brand identity
+
+The current client-facing name is **Glanzberg Studio**. The existing repository name, published demo URLs, and Pages hosting paths remain unchanged while the name and domain are considered provisional.
