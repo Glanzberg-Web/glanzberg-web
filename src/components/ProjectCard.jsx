@@ -1,5 +1,8 @@
 import { Arrow } from "@/components/Shared";
 
+const configuredBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "/glanzberg-web";
+const basePath = configuredBasePath === "/" ? "" : configuredBasePath.replace(/\/$/, "");
+
 export function ProjectArt({ project }) {
   return (
     <div className={"project-art art-" + project.art} aria-hidden="true">
