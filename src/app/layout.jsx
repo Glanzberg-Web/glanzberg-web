@@ -2,10 +2,12 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : "http://localhost:3000");
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://glanzberg-web.github.io/glanzberg-web";
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "/glanzberg-web";
+const basePath = rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
 
 export const metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteUrl.replace(/\/$/, "") + "/"),
   title: {
     default: "Glanzberg Web | Websites built to mean business",
     template: "%s | Glanzberg Web",
@@ -18,10 +20,9 @@ export const metadata = {
     siteName: "Glanzberg Web",
     title: "Glanzberg Web | Websites built to mean business",
     description: "Websites that look the part and help customers take the next step.",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Glanzberg Web" }],
   },
   twitter: { card: "summary_large_image" },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: `${basePath}/favicon.svg` },
   robots: { index: true, follow: true },
 };
 

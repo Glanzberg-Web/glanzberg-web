@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 const initial = { name: "", email: "", business: "", service: "", message: "", website: "" };
 
-export default function ContactForm({ enabled }) {
+export default function ContactForm({ endpoint }) {
+  const enabled = Boolean(endpoint);
   const [form, setForm] = useState(initial);
   const [status, setStatus] = useState("idle");
   const [feedback, setFeedback] = useState("");
@@ -20,7 +22,7 @@ export default function ContactForm({ enabled }) {
     setStatus("sending");
     setFeedback("");
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -80,7 +82,7 @@ export default function ContactForm({ enabled }) {
         <button type="submit" className="button button-dark" disabled={!enabled || status === "sending"}>
           {status === "sending" ? "Sending…" : "Send your inquiry"} <span aria-hidden="true">↗</span>
         </button>
-        <p>By sending this form, you agree to our <a href="/privacy">privacy information</a>.</p>
+        <p>By sending this form, you agree to our <Link href="/privacy">privacy information</Link>.</p>
       </div>
       {feedback && <p className={status === "success" ? "form-feedback success" : "form-feedback error"} role={status === "error" ? "alert" : "status"} aria-live="polite">{feedback}</p>}
     </form>

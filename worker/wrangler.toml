@@ -1,0 +1,6 @@
+name = "glanzberg-web-contact"
+main = "contact-worker.js"
+compatibility_date = "2026-09-01"
+
+# Set ALLOWED_ORIGINS in Cloudflare Worker settings.
+# Add RESEND_API_KEY as a secret, plus CONTACT_TO_EMAIL and CONTACT_FROM_EMAIL.

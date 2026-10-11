@@ -7,10 +7,8 @@ export const metadata = {
   alternates: { canonical: "/contact" },
 };
 
-export const dynamic = "force-dynamic";
-
 export default function ContactPage() {
-  const enabled = Boolean(process.env.RESEND_API_KEY && process.env.CONTACT_TO_EMAIL && process.env.CONTACT_FROM_EMAIL);
+  const endpoint = process.env.NEXT_PUBLIC_CONTACT_ENDPOINT || "";
   return (
     <section className="contact-page section">
       <div className="shell">
@@ -29,7 +27,7 @@ export default function ContactPage() {
           </div>
           <div className="contact-form-panel">
             <div className="contact-form-header"><span>PROJECT DETAILS</span><span>FIELDS MARKED * ARE REQUIRED</span></div>
-            <ContactForm enabled={enabled} />
+            <ContactForm endpoint={endpoint} />
           </div>
         </div>
       </div>

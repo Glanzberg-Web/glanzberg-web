@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Eyebrow } from "@/components/Shared";
 
 export const metadata = {
@@ -21,7 +22,7 @@ export default function PrivacyPage() {
         <h2>Analytics and cookies</h2>
         <p>This website does not include a custom analytics or advertising tracker by default. Our hosting provider may process standard technical request data needed to operate and secure the service. If tracking tools are added in the future, this notice should be updated.</p>
         <h2>Contact about your information</h2>
-        <p>If you want to ask about information you provided, please use the <a href="/contact">contact page</a>. This notice is a starting-point description and should be reviewed against the business’s final operating practices before launch.</p>
+        <p>If you want to ask about information you provided, please use the <Link href="/contact">contact page</Link>. This notice is a starting-point description and should be reviewed against the business’s final operating practices before launch.</p>
       </div>
     </section>
   );
