@@ -22,8 +22,8 @@ try {
       if (!response?.ok()) throw new Error(`HTTP ${response?.status() || "unknown"}`);
       await page.evaluate(async () => { await document.fonts.ready; });
       await page.waitForTimeout(1800);
-      const destination = path.join(output, `${slug}.webp`);
-      await page.screenshot({ path: destination, type: "webp", quality: 82, animations: "disabled" });
+      const destination = path.join(output, `${slug}.jpg`);
+      await page.screenshot({ path: destination, type: "jpeg", quality: 82, animations: "disabled" });
       console.log(`Captured ${slug}: ${url}`);
     } catch (error) {
       console.error(`Unable to capture ${slug} (${url}): ${error.message}`);
