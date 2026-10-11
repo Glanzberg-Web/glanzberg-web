@@ -1,23 +1,28 @@
 # Glanzberg Web
 
-Business website for Glanzberg Web.
+A responsive business website for Glanzberg Web, built with Next.js.
 
-Built with Next.js and Tailwind CSS. The website includes a portfolio of clearly labeled demonstration concepts and a contact form designed for a business-owned Resend account.
+## Local development
 
-## Getting started
+Run `npm install` and then `npm run dev`.
 
-1. Run `npm install` and `npm run dev`.
-2. Copy `.env.example` to `.env.local` and configure the environment variables.
-3. Deploy through Vercel, connecting this repository.
+## Deployment
+
+Connect this repository to Vercel, configure the project environment variables, and deploy. Set `NEXT_PUBLIC_SITE_URL` to the final public site URL (including https://).
 
 ## Contact form
 
-The contact form will not accept submissions until `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, and `CONTACT_FROM_EMAIL` are configured on the server. Configure a verified sender domain in Resend. Do not commit API keys.
+Copy `.env.example` to `.env.local` for local development. Configure `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, and `CONTACT_FROM_EMAIL` on the server. `CONTACT_FROM_EMAIL` must be an authorized sender in the business-owned Resend account. Without all three variables the form remains explicitly disabled; no inquiries are silently lost. Never commit API keys. This form includes basic validation and a honeypot; add provider- or edge-level rate limiting and anti-spam controls before promoting it broadly.
 
-## Launch checklist
+## Portfolio
 
-- Add and verify the business domain; set `NEXT_PUBLIC_SITE_URL`.
-- Connect to Vercel, configure environment variables, and deploy.
-- Review all business copy and portfolio selections.
-- Test contact form delivery and spam behavior before sharing the site.
-- Confirm legal/privacy language is appropriate for business operations.
+The six featured brands are fictional design concepts, not client projects. Each item links to its public source repository. Replace or expand these when approved real-world case studies become available.
+
+## Before launch
+
+- Confirm business name, service area, live domain, and final copy.
+- Connect hosting and test forms with a verified Resend sender.
+- Review and tailor privacy language to actual business practices.
+- Run `npm run build`, inspect mobile layouts, and audit keyboard/accessibility behavior.
+- Configure hosting-level abuse prevention and performance monitoring.
+- Publish the final domain and update metadata/site URLs.
