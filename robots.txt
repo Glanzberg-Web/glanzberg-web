@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glanzberg-web.github.io/glanzberg-web/sitemap.xml
