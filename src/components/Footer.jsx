@@ -19,7 +19,6 @@ export default function Footer() {
           <div>
             <span className="footer-label">Get in touch</span>
             <Link href="/contact">Request a quote</Link>
-            <a href="https://github.com/Glanzberg-Web" target="_blank" rel="noopener noreferrer">GitHub <span className="sr-only">(opens in a new tab)</span></a>
             <Link href="/privacy">Privacy</Link>
           </div>
         </div>

@@ -21,7 +21,7 @@ export default function WorkPage() {
       </section>
       <section className="section">
         <div className="shell">
-          <div className="portfolio-explainer"><strong>What you’re looking at</strong><p>These are self-initiated demonstration websites using fictional businesses. They are design samples, not client case studies or claims of commercial results. Each card links to its project repository.</p></div>
+          <div className="portfolio-explainer"><strong>What you’re looking at</strong><p>These are self-initiated demonstration websites using fictional businesses. They are design samples, not client case studies or claims of commercial results. Select any project to explore its live website in a new tab.</p></div>
           <div className="project-grid full-project-grid">
             {projects.map((project, index) => <ProjectCard project={project} index={index} key={project.slug} />)}
           </div>

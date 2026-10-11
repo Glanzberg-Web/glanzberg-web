@@ -52,7 +52,7 @@ export function ProjectArt({ project }) {
 export default function ProjectCard({ project, index }) {
   return (
     <article className="project-card">
-      <a className="project-visual-link" href={project.link} target="_blank" rel="noopener noreferrer" aria-label={"View " + project.name + " source repository (opens in a new tab)"}>
+      <a className="project-visual-link" href={project.link} target="_blank" rel="noopener noreferrer" aria-label={"Visit live " + project.name + " demo website (opens in a new tab)"}>
         <ProjectArt project={project} />
       </a>
       <div className="project-card-meta">
@@ -64,7 +64,7 @@ export default function ProjectCard({ project, index }) {
           <h3>{project.name}</h3>
           <p>{project.summary}</p>
         </div>
-        <a className="project-open" href={project.link} target="_blank" rel="noopener noreferrer" aria-label={"Explore " + project.name + " repository in new tab"}><Arrow diagonal /></a>
+        <a className="project-open project-live-link" href={project.link} target="_blank" rel="noopener noreferrer" aria-label={"View " + project.name + " live demo (opens in a new tab)"}>Live demo <Arrow diagonal /></a>
       </div>
     </article>
   );

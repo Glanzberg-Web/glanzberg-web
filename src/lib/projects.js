@@ -8,7 +8,7 @@ export const projects = [
     tags: ["Automotive", "Local business", "Lead generation"],
     art: "harborline",
     initials: "H",
-    link: "https://github.com/Glanzberg-Web/harborline-auto-demo",
+    link: "https://glanzberg-web.github.io/harborline-auto-demo/",
     theme: "dark",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     tags: ["Landscaping", "Portfolio", "Editorial"],
     art: "verdant",
     initials: "V",
-    link: "https://github.com/Glanzberg-Web/verdant-landscaping-demo",
+    link: "https://glanzberg-web.github.io/verdant-landscaping-demo/",
     theme: "dark",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     tags: ["Hospitality", "Menu", "Brand feel"],
     art: "solara",
     initials: "S",
-    link: "https://github.com/Glanzberg-Web/solara-cafe-demo",
+    link: "https://glanzberg-web.github.io/solara-cafe-demo/",
     theme: "light",
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     tags: ["Home services", "Mobile-first", "Quotes"],
     art: "tideline",
     initials: "T",
-    link: "https://github.com/Glanzberg-Web/tideline-cleaning-demo",
+    link: "https://glanzberg-web.github.io/tideline-cleaning-demo/",
     theme: "light",
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     tags: ["Contracting", "Projects", "Estimates"],
     art: "ironwood",
     initials: "I",
-    link: "https://github.com/Glanzberg-Web/ironwood-contracting-demo",
+    link: "https://glanzberg-web.github.io/ironwood-contracting-demo/",
     theme: "dark",
   },
   {
@@ -68,7 +68,7 @@ export const projects = [
     tags: ["Wellness", "Editorial", "Consultations"],
     art: "luma",
     initials: "L",
-    link: "https://github.com/Glanzberg-Web/luma-aesthetics-demo",
+    link: "https://glanzberg-web.github.io/luma-aesthetics-demo/",
     theme: "light",
   },
 ];

@@ -33,7 +33,6 @@ export default function RootLayout({ children }) {
     name: "Glanzberg Web",
     url: siteUrl,
     description: "Website design, redesign, and maintenance services.",
-    sameAs: ["https://github.com/Glanzberg-Web"],
   };
 
   return (
